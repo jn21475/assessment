@@ -206,11 +206,45 @@ li a:hover:not(.active) {
 }
 
 #footer {
-  padding-left: 13.5vw;
+  background-image: url("resources/footer.png");
+  background-size: cover;
+  position: absolute;
+  height: 17vh;
+  left: 14vw;
+  width: 85vw;
 }
 
-#footer img {
-  width: 85.5vw;
+#footerrangi {
+  background-image: url("resources/footer.png");
+  background-size: cover;
+  position: absolute;
+  height: 17vh;
+  left: 14vw;
+  width: 85vw;
+  margin-top: 120vh;
+}
+
+.text {
+  background-color: #ffffffe5;
+  color: black;
+  font-size: 8.11vw; 
+  font-weight: bold;
+  position: absolute;
+  mix-blend-mode: screen;
+  text-decoration: none;
+}
+
+.text a {
+  color: black;
+  text-decoration: none;
+}
+
+#real {
+  background-color: #ffffffe5;
+  width: 85vw;
+  height: 22.6vh;
+  top: 17.4vh;
+  position: absolute;
 }
 
 #desc {
@@ -236,17 +270,30 @@ span {
 #gallery {
   padding-left: 13.5vw;
   flex-wrap: wrap;
+  position: relative;
 }
 
 #gallery img {
   float: left;
   padding: 0.3vw;
+  position: relative;
+}
+
+#gallery2 {
+  padding-left: 13.5vw;
+
+}
+
+#gallery2 img {
+  float: right;
+  padding: 0.3vw;
+  position: relative;
 }
 
 #img {
   background-color: #ffffff;
   width: 51vw;
-  height: 66vh;
+  height: 56vh;
   margin-top: 33vh;
   margin-left: 44.3vw;
   position: absolute;
